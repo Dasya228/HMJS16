@@ -1,0 +1,62 @@
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: dodgerblue;
+    padding: 80px 0;
+
+}
+button{
+    cursor: pointer;
+}
+.text-container{
+    display: none;
+}
+.text-wrap{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.text-wrap button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 500px;
+    height: 100%;
+    padding: 80px 80px;
+    border-radius: 15px;
+}
+.input-container input{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid dodgerblue;
+}
+.input-container button{
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    border-radius: 8px;
+    border: 1px solid dodgerblue;
+    color: white;
+    font-size: 16px;
+}
